@@ -1,0 +1,57 @@
+import streamlit as st
+import re
+import nltk
+import pandas as pd
+from nltk.tokenize import RegexpTokenizer
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
+from pdfminer.pdfdocument import PDFSyntaxError
+from docx import Document
+import io
+import pickle
+import pdfplumber
+
+import os
+import re
+import nltk
+import spacy
+import string
+import pandas as pd
+import numpy as np
+import seaborn as sns
+from matplotlib import pylab
+from matplotlib import pyplot as plt
+
+from nltk.corpus import stopwords
+from nltk.tokenize import RegexpTokenizer
+from wordcloud import WordCloud, STOPWORDS
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+from sklearn.feature_extraction.text import CountVectorizer
+
+from collections import Counter
+
+from sklearn.feature_extraction.text import CountVectorizer
+import pandas as pd
+
+from sklearn.model_selection import train_test_split
+sns.set_style('darkgrid')
+%matplotlib inline
+import matplotlib.pyplot as plt
+import matplotlib.pylab as pylab
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+from sklearn.svm import SVC
+from xgboost import XGBClassifier
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.ensemble import BaggingClassifier
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.metrics import confusion_matrix, accuracy_score
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.metrics import f1_score, classification_report, precision_score, recall_score
+     
